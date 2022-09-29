@@ -8,6 +8,7 @@ class Director:
     The responsibility of a Director is to control the sequence of play.
 
     Attributes:
+
         
     """
 
@@ -17,6 +18,10 @@ class Director:
         Args:
             
         """
+        self.card = []
+        self.is_playing = True
+        self.score = 0
+        self.total_score = 0
         
 
     def start_game(self):
@@ -30,24 +35,26 @@ class Director:
             self.do_updates()
             self.do_outputs()
 
+# Dylan
     def get_inputs(self):
-        """Ask the user ....
+        """Ask the user if the card is hi or lo
 
         Args:
-            
+           self (Director): An instance of Director 
         """
+        guess_card = input("higher or lower? [h/l] ")
         
-       
+# Stacie       
     def do_updates(self):
-        """Updates the player's ....
+        """Updates the player's overall score
 
         Args:
             
         """
         
-
+# Stacie
     def do_outputs(self):
-        """Displays ..... Also asks the player ..... 
+        """Displays . Also asks the player if they would like to keep playing
 
         Args:
             

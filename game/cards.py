@@ -16,27 +16,27 @@ class Card:
         """ Constructs
     
         Args: 
-
+            self (cards): An instance of cards
         """
         pass
 
-# 3) Display int between 1 to 13
+# 3) Angela Display int between 1 to 13
     def display_card():
         pass
 
-# 4) Player guess higher or lower
+# 4) Angela Player guess higher or lower
     def ask_player():
         pass
 
-# 5) Display amount earned or lost +100 points if correct, -75 if incorrect
+# 5) Francisco Display amount earned or lost +100 points if correct, -75 if incorrect
     def earned_lost():
         pass
 
-# 6) Keep overall score, game started at 300, ends if player reaches 0
+# 6) Franciso Keep overall score, game started at 300, ends if player reaches 0
     def overall_score():
         pass
 
-# 7) Ask playing to keep playing if points > 0
+# 7) Dylan Ask playing to keep playing if points > 0
     def keep_playing():
         pass
 
