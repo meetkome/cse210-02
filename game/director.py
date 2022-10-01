@@ -1,7 +1,6 @@
 from optparse import Values
 from game.cards import Card
 
-
 class Director:
     """A person who directs the game. 
     
@@ -22,7 +21,6 @@ class Director:
         self.is_playing = True
         self.score = 0
         self.total_score = 0
-        
 
     def start_game(self):
         """Starts the game by running the main game loop.
@@ -34,6 +32,7 @@ class Director:
             self.get_inputs()
             self.do_updates()
             self.do_outputs()
+           
 
 # Dylan
     def get_inputs(self):
@@ -42,7 +41,11 @@ class Director:
         Args:
            self (Director): An instance of Director 
         """
-        guess_card = input("higher or lower? [h/l] ")
+        guess_card = input("higher or lower? [h/l] ").lower()
+        if guess_card == "h" or guess_card == "l":
+            print("Next card was")
+
+
         
 # Stacie       
     def do_updates(self):
